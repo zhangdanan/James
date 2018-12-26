@@ -1,0 +1,307 @@
+
+
+/* Type */
+
+body {
+    background-color: #fff;
+    color: #999999;
+}
+/*字体大小样式*/
+/*body, input, select, textarea {
+    font-family: "Scope One", serif;
+    font-size: 13pt;
+    font-weight: 300;
+    line-height: 1.65;
+}*/
+/*
+@media screen and (max-width: 1680px) {
+
+    body, input, select, textarea {
+        font-size: 11pt;
+    }
+
+}*/
+
+/*@media screen and (max-width: 1280px) {
+
+    body, input, select, textarea {
+        font-size: 11pt;
+    }
+
+}*/
+
+/*@media screen and (max-width: 980px) {
+
+    body, input, select, textarea {
+        font-size: 12pt;
+    }
+
+}*/
+
+
+p {
+    margin: 0 0 2em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: .25em;
+}
+
+
+h2 {
+    font-size: 2.5em;
+}
+
+
+
+h3 {
+    font-size: 1.75em;
+}
+
+
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 0.9em;
+}
+
+h6 {
+    font-size: 0.7em;
+}
+
+hr {
+    border: 0;
+    border-bottom: solid 1px;
+    margin: 2em 0;
+}
+
+hr.major {
+    margin: 3em 0;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+
+
+
+
+/* Box */
+
+/*.box {
+    border-radius: 4px;
+    border: solid 1px;
+    margin-bottom: 2em;
+    padding: 1.5em;
+}*/
+
+
+
+/* Flex */
+ /*个节点排列有序*/
+.flex {
+    display: -ms-flexbox;
+    -ms-flex-pack: justify;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+}
+
+
+/*各节点响应式*/
+.flex.flex-2 .col {
+    width: 48%;
+}
+
+.flex.flex-2 .col.col1 {
+    width: 30%;
+}
+
+.flex.flex-2 .col.col2 {
+    width: 66%;
+}
+
+
+
+/*三个图片排列*/
+.flex.flex-3 .col {
+    width: 28%;
+}
+
+
+
+/* Image */
+
+.image {
+    border: 0;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*.image img {
+    display: block;
+}
+
+.image.left, .image.right {
+    max-width: 40%;
+}
+
+.image.left img, .image.right img {
+    width: 100%;
+}*/
+
+/*.image.left {
+    float: left;
+    margin: 0 1.5em 1em 0;
+    top: 0.25em;
+}
+
+.image.right {
+    float: right;
+    margin: 0 0 1em 1.5em;
+    top: 0.25em;
+}*/
+/*图片响应式大小*/
+.image.fit {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%;
+}
+
+.image.fit img {
+    width: 100%;
+}
+/*图片圆角*/
+.image.round {
+    border-radius: 100%;
+}
+
+.image.round img {
+    border-radius: 100%;
+}
+
+/*.image.main {
+    display: block;
+    margin: 0 0 3em 0;
+    width: 100%;
+}
+
+.image.main img {
+    width: 100%;
+}*/
+
+
+
+
+/* Wrapper */
+
+.wrapper {
+    padding: 6em 0 4em 0;
+    position: relative;
+}
+
+.wrapper .inner {
+    margin: 0 auto;
+    width: 80em;
+    position: relative;
+    z-index: 99;
+}
+
+.wrapper header {
+    margin-bottom: 4em;
+}
+
+
+.wrapper.style1 textarea {
+    background: rgba(0, 0, 0, 0.075);
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+/*背景色蓝色*/
+.wrapper.style2 {
+    background-color: #3498db;
+    color: #aed6f1;
+}
+
+/*图片边框与背景色一致*/
+
+.wrapper.style2 ::-webkit-input-placeholder {
+    color: #67b2e4 !important;
+}
+
+.wrapper.style2 :-moz-placeholder {
+    color: #67b2e4 !important;
+}
+
+.wrapper.style2 ::-moz-placeholder {
+    color: #67b2e4 !important;
+}
+
+
+
+.wrapper.style2 .image {
+    box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
+}
+
+
+
+.dada{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+/*轮播图高度*/
+.carousel .item{
+    /*height: auto;*/
+    height: 360px;
+    background-color: #3f7f5f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
